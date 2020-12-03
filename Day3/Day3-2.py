@@ -33,10 +33,10 @@ with open("input.txt", "r") as f:
     (i0, j0) = (0, 0)
 
     res = 1
-    res *= count(i0, j0, clines, 1, 1)
-    res *= count(i0, j0, clines, 1, 3)
-    res *= count(i0, j0, clines, 1, 5)
-    res *= count(i0, j0, clines, 1, 7)
-    res *= count(i0, j0, clines, 2, 1)
+    res *= count(i0, j0, clines, 1, 1)  # 1 right, 1 down
+    res *= count(i0, j0, clines, 1, 3)  # 3 right, 1 down
+    res *= count(i0, j0, clines, 1, 5)  # 5 right, 1 down
+    res *= count(i0, j0, clines, 1, 7)  # 7 right, 1 down
+    res *= count(i0, j0, clines, 2, 1)  # 1 right, 2 down
 
     print(res)
