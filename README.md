@@ -1,7 +1,7 @@
 # Advent of Code 2020
 
 Hello everyone,
-In this repository you will find the code I wrote for Eric Wastl's Advent of Code, 2020 edtion.
+In this repository you will find the code I wrote for Eric Wastl's Advent of Code, 2020 edition.
 
 The language I use is Python, and all the files are provided with comments.
 
